@@ -34,7 +34,6 @@ import arm from './assets/hand wax.jpg'
 import face from './assets/face.webp'
 import leg from './assets/leg wax.webp'
 import body from './assets/body.jpg'
-import { section } from "framer-motion/client";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
