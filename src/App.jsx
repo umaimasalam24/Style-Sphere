@@ -12,7 +12,7 @@ import bride from "./assets/bridal.jpg";
 import glam from './assets/glam.jpg'
 import party from './assets/party.png'
 import soft from './assets/soft-glam.jpeg'
-import air from './assets/airBrush.PNG'
+import air from './assets/airbrush.PNG'
 import trial from './assets/trial.png'
 import natural from './assets/natural.png'
 import cut from './assets/cut.avif'
