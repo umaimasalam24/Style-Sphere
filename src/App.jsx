@@ -392,7 +392,7 @@ function App() {
       {/* Button */}
       <div className="flex justify-center">
         <a
-          href="https://style-sphere.vercel.app/"
+          href="https://style-sphere-2flc.vercel.app/"
           className="inline-flex items-center justify-center bg-pink-600 text-white px-6 sm:px-8 py-3 rounded-full text-base sm:text-lg font-semibold hover:bg-pink-700 transition duration-300 shadow-lg hover:scale-105 animate-fadeUp animation-delay-1000"
         >
           Visit Website
