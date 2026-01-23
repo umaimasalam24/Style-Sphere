@@ -13,14 +13,14 @@ import glam from './assets/glam.jpg'
 import party from './assets/party.png'
 import soft from './assets/soft-glam.jpeg'
 import air from './assets/airbrush.PNG'
-import trial from './assets/trial.png'
+import trial from './assets/trial.PNG'
 import natural from './assets/natural.png'
 import cut from './assets/cut.avif'
 import modren from './assets/braid.jpg'
 import wash from './assets/wash.jpg'
-import blow from './assets/blow.png'
+import blow from './assets/blow.PNG'
 import color from './assets/color.jpg'
-import highlights from './assets/highlights.png'
+import highlights from './assets/highlights.PNG'
 import hydrate from './assets/hydrating.jpeg'
 import aging from './assets/aging.jpeg'
 import acne from './assets/acne.webp'
@@ -409,47 +409,47 @@ function App() {
  </div>
 
   {/* Services Section */} 
-  <section class="text-gray-600 body-font" id="services">
-     <div class="container px-5 py-24 mx-auto"> 
-    <div class="flex flex-col text-center w-full mb-20">
-     <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Luxury Beauty Services, Tailored for You</h1>
-   <p class="lg:w-2/3 mx-auto leading-relaxed text-base">We offer a complete range of professional beauty services designed to enhance your natural beauty. From flawless makeup and expert hair styling to relaxing facials and bridal packages, our experienced team uses high-quality products and modern techniques to deliver exceptional results. Your comfort, confidence, and satisfaction are always our top priority.</p> 
+  <section className="text-gray-600 body-font" id="services">
+     <div className="container px-5 py-24 mx-auto"> 
+    <div className="flex flex-col text-center w-full mb-20">
+     <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Luxury Beauty Services, Tailored for You</h1>
+   <p className="lg:w-2/3 mx-auto leading-relaxed text-base">We offer a complete range of professional beauty services designed to enhance your natural beauty. From flawless makeup and expert hair styling to relaxing facials and bridal packages, our experienced team uses high-quality products and modern techniques to deliver exceptional results. Your comfort, confidence, and satisfaction are always our top priority.</p> 
   </div>
-   <div class="flex flex-wrap -m-4"> 
-    <div class="lg:w-1/3 sm:w-1/2 p-4"> 
-  <div class="flex relative"> 
-    <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src={makeup}/>
-   <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200  opacity-0 hover:opacity-100  bg-pink-200">
-     <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Makeup Services</h1> 
-  <p class="leading-relaxed">We serve Party Makeup, Engagement Makeup, Airbrush Makeup, Soft / Natural Makeup, Glam Makeup, Makeup Trial (Bridal)</p> 
+   <div className="flex flex-wrap -m-4"> 
+    <div className="lg:w-1/3 sm:w-1/2 p-4"> 
+  <div className="flex relative"> 
+    <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src={makeup}/>
+   <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200  opacity-0 hover:opacity-100  bg-pink-200">
+     <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Makeup Services</h1> 
+  <p className="leading-relaxed">We serve Party Makeup, Engagement Makeup, Airbrush Makeup, Soft / Natural Makeup, Glam Makeup, Makeup Trial (Bridal)</p> 
   </div> 
   </div> 
   </div>
-   <div class="lg:w-1/3 sm:w-1/2 p-4">
-   <div class="flex relative">
-     <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src={bridal}/>
-   <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-pink-200 opacity-0 hover:opacity-100"> 
-    <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Bridal Services</h1>
-   <p class="leading-relaxed">We serve Bridal Makeup, Mehndi Makeup, Baraat Makeup, Walima Makeup, Bridal Hairstyle, Dupatta Setting, Jewelry Setting, Customized Bridal Packages</p>
+   <div className="lg:w-1/3 sm:w-1/2 p-4">
+   <div className="flex relative">
+     <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src={bridal}/>
+   <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-pink-200 opacity-0 hover:opacity-100"> 
+    <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Bridal Services</h1>
+   <p className="leading-relaxed">We serve Bridal Makeup, Mehndi Makeup, Baraat Makeup, Walima Makeup, Bridal Hairstyle, Dupatta Setting, Jewelry Setting, Customized Bridal Packages</p>
    </div> 
   </div>
    </div>
-   <div class="lg:w-1/3 sm:w-1/2 p-4">
-   <div class="flex relative"> 
-    <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src={hairs}/>
-   <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-pink-200 opacity-0 hover:opacity-100">
-     <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Hair Services
+   <div className="lg:w-1/3 sm:w-1/2 p-4">
+   <div className="flex relative"> 
+    <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src={hairs}/>
+   <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-pink-200 opacity-0 hover:opacity-100">
+     <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Hair Services
     </h1> 
-  <p class="leading-relaxed">We serve Hair Cut (Layer, Bob, Step, U-Cut, V-Cut), Hair Styling (Straight, Curls, Waves), Blow Dry, Hair Wash, Hair Coloring, Highlights / Lowlights
+  <p className="leading-relaxed">We serve Hair Cut (Layer, Bob, Step, U-Cut, V-Cut), Hair Styling (Straight, Curls, Waves), Blow Dry, Hair Wash, Hair Coloring, Highlights / Lowlights
     </p> 
   </div> 
   </div>
    </div>
-   <div class="lg:w-1/3 sm:w-1/2 p-4"> 
-  <div class="flex relative"> 
-    <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src={facial}/> 
-  <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-pink-200 opacity-0 hover:opacity-100">
-    <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Skincare & Facial Service</h1> <p class="leading-relaxed">We serve Basic Facial, Gold Facial, Diamond Facial, Pearl Facial, Hydra Facial, Clean-Up, Skin Polishing, Acne Treatment, Under Eye Treatment</p> </div> </div> </div> <div class="lg:w-1/3 sm:w-1/2 p-4"> <div class="flex relative"> <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src={hands}/> <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-pink-200 opacity-0 hover:opacity-100"> <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Hands & Feet Care</h1> <p class="leading-relaxed">We serve Manicure Pedicure, Spa Manicure, Spa Pedicure, Paraffin Wax, Nail Cutting & Shaping, Nail Art, Gel Nails, Acrylic Nails, French Tips</p> </div> </div> </div> <div class="lg:w-1/3 sm:w-1/2 p-4"> <div class="flex relative"> <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src={waxs}/> <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-pink-200 opacity-0 hover:opacity-100"> <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Waxing & Hair Removal</h1> <p class="leading-relaxed">We serve Full Body Wax, Arms & Legs Wax, Face Wax, Brazilian Wax, Bikini Wax, Threading, Face Threading, Laser Hair Removal.</p> </div> </div> </div> </div> </div> </section>
+   <div className="lg:w-1/3 sm:w-1/2 p-4"> 
+  <div className="flex relative"> 
+    <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src={facial}/> 
+  <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-pink-200 opacity-0 hover:opacity-100">
+    <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Skincare & Facial Service</h1> <p className="leading-relaxed">We serve Basic Facial, Gold Facial, Diamond Facial, Pearl Facial, Hydra Facial, Clean-Up, Skin Polishing, Acne Treatment, Under Eye Treatment</p> </div> </div> </div> <div className="lg:w-1/3 sm:w-1/2 p-4"> <div className="flex relative"> <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src={hands}/> <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-pink-200 opacity-0 hover:opacity-100"> <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Hands & Feet Care</h1> <p className="leading-relaxed">We serve Manicure Pedicure, Spa Manicure, Spa Pedicure, Paraffin Wax, Nail Cutting & Shaping, Nail Art, Gel Nails, Acrylic Nails, French Tips</p> </div> </div> </div> <div className="lg:w-1/3 sm:w-1/2 p-4"> <div className="flex relative"> <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src={waxs}/> <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-pink-200 opacity-0 hover:opacity-100"> <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Waxing & Hair Removal</h1> <p className="leading-relaxed">We serve Full Body Wax, Arms & Legs Wax, Face Wax, Brazilian Wax, Bikini Wax, Threading, Face Threading, Laser Hair Removal.</p> </div> </div> </div> </div> </div> </section>
   {/*Makeup Services  */}
 <div className="bg-pink-200" id="makeup">
   <h1 className="text-2xl font-medium text-center mb-12 bg-pink-200 head">
@@ -808,63 +808,63 @@ function App() {
   </div>
 </section>
 {/* Contact */}
-<section class="text-gray-600 body-font relative" id='contact'>
-  <div class="container px-5 py-24 mx-auto">
-    <div class="flex flex-col text-center w-full mb-12">
-      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Contact Us</h1>
-      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify.</p>
+<section className="text-gray-600 body-font relative" id='contact'>
+  <div className="container px-5 py-24 mx-auto">
+    <div className="flex flex-col text-center w-full mb-12">
+      <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Contact Us</h1>
+      <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify.</p>
     </div>
-    <div class="lg:w-1/2 md:w-2/3 mx-auto">
-      <div class="flex flex-wrap -m-2">
-        <div class="p-2 w-1/2">
-          <div class="relative">
-            <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
-            <input type="text" id="name" name="name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-pink-500 focus:bg-white focus:ring-2 focus:ring-pink-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
+    <div className="lg:w-1/2 md:w-2/3 mx-auto">
+      <div className="flex flex-wrap -m-2">
+        <div className="p-2 w-1/2">
+          <div className="relative">
+            <label for="name" className="leading-7 text-sm text-gray-600">Name</label>
+            <input type="text" id="name" name="name" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-pink-500 focus:bg-white focus:ring-2 focus:ring-pink-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
           </div>
         </div>
-        <div class="p-2 w-1/2">
-          <div class="relative">
-            <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
-            <input type="email" id="email" name="email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-pink-500 focus:bg-white focus:ring-2 focus:ring-pink-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
+        <div className="p-2 w-1/2">
+          <div className="relative">
+            <label for="email" className="leading-7 text-sm text-gray-600">Email</label>
+            <input type="email" id="email" name="email" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-pink-500 focus:bg-white focus:ring-2 focus:ring-pink-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
           </div>
         </div>
-        <div class="p-2 w-full">
-          <div class="relative">
-            <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
-            <textarea id="message" name="message" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-pink-500 focus:bg-white focus:ring-2 focus:ring-pink-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+        <div className="p-2 w-full">
+          <div className="relative">
+            <label for="message" className="leading-7 text-sm text-gray-600">Message</label>
+            <textarea id="message" name="message" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-pink-500 focus:bg-white focus:ring-2 focus:ring-pink-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
           </div>
         </div>
-        <div class="p-2 w-full">
+        <div className="p-2 w-full">
           <button className="bg-pink-600 text-white px-6 py-2 rounded-lg hover:bg-white hover:text-pink-600 transition justify-center">
                   Book Now
                 </button>
               </div>
             </div>
         </div>
-        <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-          <a class="text-pink-500">stylesphere@email.com</a>
-          <p class="leading-normal my-5">49 Smith St.
+        <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
+          <a className="text-pink-500">stylesphere@email.com</a>
+          <p className="leading-normal my-5">49 Smith St.
             <br/>Saint Cloud, MN 56301
           </p>
-          <span class="inline-flex">
-            <a class="text-pink-500">
-              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+          <span className="inline-flex">
+            <a className="text-pink-500">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
                 <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
               </svg>
             </a>
-            <a class="ml-4 text-pink-500">
-              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <a className="ml-4 text-pink-500">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
                 <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
               </svg>
             </a>
-            <a class="ml-4 text-pink-500">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <a className="ml-4 text-pink-500">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
                 <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
                 <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
               </svg>
             </a>
-            <a class="ml-4 text-pink-500">
-              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <a className="ml-4 text-pink-500">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
                 <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
               </svg>
             </a>
@@ -873,88 +873,88 @@ function App() {
       </div>
 </section>
 {/* footer */}
-<footer class="text-gray-600 body-font bg-pink-200">
-  <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+<footer className="text-gray-600 body-font bg-pink-200">
+  <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
 
-    <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
-      <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+    <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
+      <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor"
           stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-          class="w-10 h-10 text-white p-2 bg-pink-500 rounded-full" viewBox="0 0 24 24">
+          className="w-10 h-10 text-white p-2 bg-pink-500 rounded-full" viewBox="0 0 24 24">
           <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
         </svg>
-        <span class="ml-3 text-xl">StyleSphere</span>
+        <span className="ml-3 text-xl">StyleSphere</span>
       </a>
-      <p class="mt-2 text-sm text-gray-500">
+      <p className="mt-2 text-sm text-gray-500">
         Enhancing your natural beauty with professional makeup, bridal looks,
         and luxury beauty services.
       </p>
     </div>
 
-    <div class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
+    <div className="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
 
-      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
+      <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+        <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
           MAKEUP SERVICES
         </h2>
-        <nav class="list-none mb-10">
-          <li><a class="text-gray-600 hover:text-pink-600">Bridal Makeup</a></li>
-          <li><a class="text-gray-600 hover:text-pink-600">Party Makeup</a></li>
-          <li><a class="text-gray-600 hover:text-pink-600">Engagement Looks</a></li>
-          <li><a class="text-gray-600 hover:text-pink-600">HD Makeup</a></li>
+        <nav className="list-none mb-10">
+          <li><a className="text-gray-600 hover:text-pink-600">Bridal Makeup</a></li>
+          <li><a className="text-gray-600 hover:text-pink-600">Party Makeup</a></li>
+          <li><a className="text-gray-600 hover:text-pink-600">Engagement Looks</a></li>
+          <li><a className="text-gray-600 hover:text-pink-600">HD Makeup</a></li>
         </nav>
       </div>
 
-      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
+      <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+        <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
           BEAUTY
         </h2>
-        <nav class="list-none mb-10">
-          <li><a class="text-gray-600 hover:text-pink-600">Facials</a></li>
-          <li><a class="text-gray-600 hover:text-pink-600">Skin Care</a></li>
-          <li><a class="text-gray-600 hover:text-pink-600">Hair Styling</a></li>
-          <li><a class="text-gray-600 hover:text-pink-600">Makeup Consultation</a></li>
+        <nav className="list-none mb-10">
+          <li><a className="text-gray-600 hover:text-pink-600">Facials</a></li>
+          <li><a className="text-gray-600 hover:text-pink-600">Skin Care</a></li>
+          <li><a className="text-gray-600 hover:text-pink-600">Hair Styling</a></li>
+          <li><a className="text-gray-600 hover:text-pink-600">Makeup Consultation</a></li>
         </nav>
       </div>
 
-      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
+      <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+        <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
           QUICK LINKS
         </h2>
-        <nav class="list-none mb-10">
-          <li><a class="text-gray-600 hover:text-pink-600">Home</a></li>
-          <li><a class="text-gray-600 hover:text-pink-600">Services</a></li>
-          <li><a class="text-gray-600 hover:text-pink-600">Gallery</a></li>
-          <li><a class="text-gray-600 hover:text-pink-600">Contact Us</a></li>
+        <nav className="list-none mb-10">
+          <li><a className="text-gray-600 hover:text-pink-600">Home</a></li>
+          <li><a className="text-gray-600 hover:text-pink-600">Services</a></li>
+          <li><a className="text-gray-600 hover:text-pink-600">Gallery</a></li>
+          <li><a className="text-gray-600 hover:text-pink-600">Contact Us</a></li>
         </nav>
       </div>
 
-      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
+      <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+        <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
           CONTACT
         </h2>
-        <nav class="list-none mb-10">
-          <li><a class="text-gray-600 hover:text-pink-600">Book Appointment</a></li>
-          <li><a class="text-gray-600 hover:text-pink-600">WhatsApp Support</a></li>
-          <li><a class="text-gray-600 hover:text-pink-600">Email Us</a></li>
-          <li><a class="text-gray-600 hover:text-pink-600">Location</a></li>
+        <nav className="list-none mb-10">
+          <li><a className="text-gray-600 hover:text-pink-600">Book Appointment</a></li>
+          <li><a className="text-gray-600 hover:text-pink-600">WhatsApp Support</a></li>
+          <li><a className="text-gray-600 hover:text-pink-600">Email Us</a></li>
+          <li><a className="text-gray-600 hover:text-pink-600">Location</a></li>
         </nav>
       </div>
 
     </div>
   </div>
 
-  <div class="bg-gray-100">
-    <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-      <p class="text-gray-500 text-sm text-center sm:text-left">
+  <div className="bg-gray-100">
+    <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+      <p className="text-gray-500 text-sm text-center sm:text-left">
         © 2026 StyleSphere — All Rights Reserved
       </p>
 
-      <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-        <a class="text-gray-500">Facebook</a>
-        <a class="ml-3 text-gray-500">Instagram</a>
-        <a class="ml-3 text-gray-500">Twitter</a>
-        <a class="ml-3 text-gray-500">LinkedIn</a>
+      <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+        <a className="text-gray-500">Facebook</a>
+        <a className="ml-3 text-gray-500">Instagram</a>
+        <a className="ml-3 text-gray-500">Twitter</a>
+        <a className="ml-3 text-gray-500">LinkedIn</a>
       </span>
     </div>
   </div>
